@@ -54,7 +54,7 @@ sayi3=56
 console.log(sayi3);
 
 
-console.log(***************************************);
+console.log("***************************************");
 
 {
     console.log(ilk);
@@ -66,7 +66,7 @@ console.log(***************************************);
     console.log(ilk); // var oldugu icin süslünün disindan da erisebildim
 }
 
-console.log(*************************************);
+console.log("*************************************");
 
 let first="osman"
 
