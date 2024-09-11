@@ -41,5 +41,83 @@ console.log(sayi2 + 56);
 console.log(sayi2 - 34);
 console.log(sayi2);
 
+// ===================  VAR VERİ TİPİ ===============================
+//? VAR ile bir değişken tanımlandığında LET de olduğu gibi değeri sonradan değiştirilebilir.
+//! VAR değişkenleri tanımlandığı yere göre global olarak veya fonksiyon içerisinde erişilebilir.
+//* - Değişken fonksiyon içerisinde tanımlandı ise ancak o fonksiyonda erişilebilir (Function-scoped).
+//? - Eğer, değişken fonksiyonların dışında tanımlandı ise tüm her yerden erişilebilir. (Global-scoped).
+//! Günümüzde programcılar global değişken gerekmedikçe VAR ile değişken tanımlamayı seçmemektedir.
+
+var sayi3=67
+
+sayi3=56
+console.log(sayi3);
+
+
+console.log(***************************************);
+
+{
+    console.log(ilk);
+
+    ilk=GLOBAL
+    console.log(ilk);
+
+    var ikinci="naber"
+    console.log(ilk); // var oldugu icin süslünün disindan da erisebildim
+}
+
+console.log(*************************************);
+
+let first="osman"
+
+console.log(first);
+
+{
+
+first="hüseyin"
+console.log(first);
+
+let second=45
+console.log(second);
+
+
+
+}
+
+console.log(first);
+
+//console.log(second);
+//let ve const ile tanimlanan block taki elemana disaridan erisemeyiz
+
+console.log("******CONST******");
+
+const erste="kazim"
+
+console.log(erste);
+
+{
+    console.log(erste);
+
+    //erste="muhterem"// degistirmeye kalkinca hata verdi
+    
+    const zweite="gökhan"
+
+    console.log(zweite);
+    
+}
+
+//console.log(zweite);
+
+// const ve let icin scope(süslü) icinde kalir
+
+
+
+
+
+
+
+
+
+
 
 
