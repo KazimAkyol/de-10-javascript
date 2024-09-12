@@ -41,7 +41,7 @@ console.log(sayi1 - sayi2); //-33
 const isim = "mehmet";
 const soyisim = "kara";
 
-console.log("benim adim soyadim " + isim + "" + soyisim);
+console.log("benim adim soyadim " + isim + " " + soyisim);
 
 //!BACKTICK (template literals) ````````
 
