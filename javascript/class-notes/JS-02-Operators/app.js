@@ -117,6 +117,52 @@ console.log("ikinci", e);//32
 console.log(--e);//31
 console.log(e);//31
 
+//! e yi 5 arttir
+
+e=e+5
+console.log(e);//36
+
+console.log(e+=5);//41
+
+
+//! e yi 5 ile carp
+
+e=e*5
+console.log(e);//205
+
+console.log(e*=5);//1025
+
+console.log(e-=5);//1020
+
+console.log(e/=5);//204
+
+console.log(e%=5);//4
+
+//? CARPMA VE ÜS ALMA
+
+const PI=3.14
+
+const yaricap=5
+
+console.log(PI*yaricap**2);//78.5
+
+//!Math pow(power) bir sayinin kuvvetini yani üssünü almak icin kullanilir
+
+console.log(PI*Math.pow(yaricap,2));//78.5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
