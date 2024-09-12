@@ -232,6 +232,91 @@ console.log(v5);//-5
 console.log(Boolean(v5));
 
 
+ // * =======================================================
+// *                 TİP DÖNÜŞÜMLERİ
+// * =======================================================
+
+
+let para= Number("1000") + Number("400")
+
+console.log(para);
+
+console.log("1000"-"400");
+console.log("1000"*"400");
+console.log("1000"/"400");
+console.log("1000"+"400");
+
+const s1=12
+const s2="23"
+console.log(s1+Number(s2));//35
+
+//**** */
+
+let ss1="123.456"
+
+console.log(parseInt(ss1));//stringi tam sayiya cevirir
+console.log(parseFloat(ss1));// stringi sayiya cevirir
+
+let f=123.678
+
+console.log(f.toString());//number'i stringe cevirir
+
+//* ile number'a cevirme
+
+let ee="12"
+
+console.log(typeof +ee);
+
+//* toFixed(x) metodu virgülden x basamak birakmamizi saglar ama sayiyi string'e cevirir
+
+let z=34.4564563456
+
+console.log(+z.toFixed(3));
+
+
+//*prompt komutu da toFixed gibi kullanilan sayiyi string yapar
+
+// const age=+prompt("yasinizi giriniz")
+
+console.log(typeof age);
+
+
+//* Null Undefined NaN
+
+console.log(typeof null);//object
+
+console.log(Boolean(null));//false
+
+console.log(null-5);//-5
+
+console.log(null==undefined);//true
+console.log(null===undefined);//false
+
+console.log(null===null);//true
+
+console.log(Number("asdfg"));//NaN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
