@@ -150,6 +150,16 @@ console.log(PI*yaricap**2);//78.5
 
 console.log(PI*Math.pow(yaricap,2));//78.5
 
+//! Math sqrt metodu verilen degerin karekökünü alir
+
+console.log(Math.sqrt(144));//12
+
+console.log(144**(1/2));//12
+
+
+
+
+
 
 
 
