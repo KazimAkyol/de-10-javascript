@@ -55,23 +55,35 @@ console.log(sayi3);
 
 console.log("***************************************");
 
+var ilk = "global";
+
+console.log(ilk);
+
 {
   console.log(ilk);
 
-  ilk = GLOBAL;
+  ilk="GLOBAL"
   console.log(ilk);
-
+  
   var ikinci = "naber";
-  console.log(ilk); // var oldugu icin süslünün disindan da erisebildim
+
 }
 
-console.log("*************************************");
+console.log(ikinci);
+console.log(ilk);// var oldigi icin süslünün disindan da erisebildim
 
-let first = "osman";
+
+
+console.log("*****************LET********************");
+
+let first = "osman"; //global scope
 
 console.log(first);
 
 {
+//block scope
+  console.log(first);
+    
   first = "hüseyin";
   console.log(first);
 
@@ -84,7 +96,7 @@ console.log(first);
 //console.log(second);
 //let ve const ile tanimlanan block taki elemana disaridan erisemeyiz
 
-console.log("******CONST******");
+console.log("***********CONST***********");
 
 const erste = "kazim";
 
