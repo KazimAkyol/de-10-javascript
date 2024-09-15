@@ -36,7 +36,7 @@ let sayi2="45"
 
 console.log(sayi2 + 56);
 
-//bir string ile number toplanirsa aslinda toplama yapmaz, onlari iki kelime gibi yanyana yazar
+//! bir string ile number toplanirsa aslinda toplama yapmaz, onlari iki kelime gibi yanyana yazar
 
 console.log(sayi2 - 34);
 console.log(sayi2);
