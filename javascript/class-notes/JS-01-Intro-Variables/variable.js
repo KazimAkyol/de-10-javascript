@@ -28,11 +28,11 @@ dil = "java";
 
 console.log(dil);
 
-let sayi1=23
+let sayi1 = 23;
 
-sayi1=34
+sayi1 = 34;
 
-let sayi2="45"
+let sayi2 = "45";
 
 console.log(sayi2 + 56);
 
@@ -48,40 +48,35 @@ console.log(sayi2);
 //? - Eğer, değişken fonksiyonların dışında tanımlandı ise tüm her yerden erişilebilir. (Global-scoped).
 //! Günümüzde programcılar global değişken gerekmedikçe VAR ile değişken tanımlamayı seçmemektedir.
 
-var sayi3=67
+var sayi3 = 67;
 
-sayi3=56
+sayi3 = 56;
 console.log(sayi3);
-
 
 console.log("***************************************");
 
 {
-    console.log(ilk);
+  console.log(ilk);
 
-    ilk=GLOBAL
-    console.log(ilk);
+  ilk = GLOBAL;
+  console.log(ilk);
 
-    var ikinci="naber"
-    console.log(ilk); // var oldugu icin süslünün disindan da erisebildim
+  var ikinci = "naber";
+  console.log(ilk); // var oldugu icin süslünün disindan da erisebildim
 }
 
 console.log("*************************************");
 
-let first="osman"
+let first = "osman";
 
 console.log(first);
 
 {
+  first = "hüseyin";
+  console.log(first);
 
-first="hüseyin"
-console.log(first);
-
-let second=45
-console.log(second);
-
-
-
+  let second = 45;
+  console.log(second);
 }
 
 console.log(first);
@@ -91,33 +86,20 @@ console.log(first);
 
 console.log("******CONST******");
 
-const erste="kazim"
+const erste = "kazim";
 
 console.log(erste);
 
 {
-    console.log(erste);
+  console.log(erste);
 
-    //erste="muhterem"// degistirmeye kalkinca hata verdi
-    
-    const zweite="gökhan"
+  //erste="muhterem"// degistirmeye kalkinca hata verdi
 
-    console.log(zweite);
-    
+  const zweite = "gökhan";
+
+  console.log(zweite);
 }
 
 //console.log(zweite);
 
 // const ve let icin scope(süslü) icinde kalir
-
-
-
-
-
-
-
-
-
-
-
-
