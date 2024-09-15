@@ -13,8 +13,8 @@ const sayi = 7;
 
 console.log(typeof degiskenAdi, typeof sayi);
 
-//sayi=8 // Assignment to constant variable.
-//const ile tanimlanan degiskenler degistirilemez
+//!sayi=8 // Assignment to constant variable.
+//!const ile tanimlanan degiskenler degistirilemez
 
 // ======================  LET  ========================
 //? LET de CONST gibi yaygın kullanılan değişken tanımlama yöntemidir.
