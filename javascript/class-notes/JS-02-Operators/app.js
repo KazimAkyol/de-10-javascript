@@ -6,7 +6,7 @@ const cola = 50;
 const cips = 35;
 const dondurma = 20;
 
-console.log("cola" + cips + dondurma);
+console.log("cola" + cips + dondurma); //cola3520
 
 let toplam = cola + cips + dondurma;
 
@@ -169,19 +169,17 @@ console.log("yüzler", Math.trunc(456 / 100)); //yüzler basamagi 4
 
 const nummer = 4;
 
-console.log(nummer==4);//true
-console.log(nummer===4);//true
-console.log(nummer==="4");//false
-console.log(nummer=="4");//true
+console.log(nummer == 4); //true
+console.log(nummer === 4); //true
+console.log(nummer === "4"); //false
+console.log(nummer == "4"); //true
 
-console.log(nummer!=4);//nummer 4 e esit degil demi
-console.log(nummer!=5);//nummer 5 e esit degil demi
-console.log(nummer!="4");//nummer "4" e esit degil
+console.log(nummer != 4); //nummer 4 e esit degil demi
+console.log(nummer != 5); //nummer 5 e esit degil demi
+console.log(nummer != "4"); //nummer "4" e esit degil
 
-console.log(nummer>4);//false
-console.log(nummer>=4);//true
-
-
+console.log(nummer > 4); //false
+console.log(nummer >= 4); //true
 
 // * =======================================================
 // *         MANTIKSAL OPERATORLER (logical operators)
@@ -189,90 +187,81 @@ console.log(nummer>=4);//true
 
 console.log("*******************");
 
-
 //?TRUE
 console.log(Boolean(5));
 console.log(Boolean(5.8));
 console.log(Boolean(-5.8));
-console.log(Boolean([1,2,5]));
-
+console.log(Boolean([1, 2, 5]));
 
 //? 5 FALSE
 console.log(Boolean(0));
 console.log(Boolean(null));
 console.log(Boolean(""));
 console.log(Boolean(undefined));
-console.log(Boolean(NaN));//Not a Number
+console.log(Boolean(NaN)); //Not a Number
 
-let v=null
+let v = null;
 console.log(v);
 
-const v1= false || 4
+const v1 = false || 4;
 console.log(v1);
 console.log(Boolean(v1));
 
-
-const v2 = false || 0 || null || 12.6 || false || 3
+const v2 = false || 0 || null || 12.6 || false || 3;
 console.log(v2);
 console.log(Boolean(v2));
 
-
-const v3 = false || 0 || undefined || "" || null || NaN
-console.log(v3);//NaN
+const v3 = false || 0 || undefined || "" || null || NaN;
+console.log(v3); //NaN
 console.log(Boolean(v3));
 
-
-const v4= 5 && 3.5 && true && 0
-console.log(v4);//0
+const v4 = 5 && 3.5 && true && 0;
+console.log(v4); //0
 console.log(Boolean(v4));
 
-
-const v5=4 && 13.4 && true && -5
-console.log(v5);//-5
+const v5 = 4 && 13.4 && true && -5;
+console.log(v5); //-5
 console.log(Boolean(v5));
 
-
- // * =======================================================
+// * =======================================================
 // *                 TİP DÖNÜŞÜMLERİ
 // * =======================================================
 
-
-let para= Number("1000") + Number("400")
+let para = Number("1000") + Number("400");
 
 console.log(para);
 
-console.log("1000"-"400");
-console.log("1000"*"400");
-console.log("1000"/"400");
-console.log("1000"+"400");
+console.log("1000" - "400");
+console.log("1000" * "400");
+console.log("1000" / "400");
+console.log("1000" + "400");
 
-const s1=12
-const s2="23"
-console.log(s1+Number(s2));//35
+const s1 = 12;
+const s2 = "23";
+console.log(s1 + Number(s2)); //35
 
 //**** */
 
-let ss1="123.456"
+let ss1 = "123.456";
 
-console.log(parseInt(ss1));//stringi tam sayiya cevirir
-console.log(parseFloat(ss1));// stringi sayiya cevirir
+console.log(parseInt(ss1)); //stringi tam sayiya cevirir
+console.log(parseFloat(ss1)); // stringi sayiya cevirir
 
-let f=123.678
+let f = 123.678;
 
-console.log(f.toString());//number'i stringe cevirir
+console.log(f.toString()); //number'i stringe cevirir
 
 //* ile number'a cevirme
 
-let ee="12"
+let ee = "12";
 
 console.log(typeof +ee);
 
 //* toFixed(x) metodu virgülden x basamak birakmamizi saglar ama sayiyi string'e cevirir
 
-let z=34.4564563456
+let z = 34.4564563456;
 
 console.log(+z.toFixed(3));
-
 
 //*prompt komutu da toFixed gibi kullanilan sayiyi string yapar
 
@@ -280,56 +269,17 @@ console.log(+z.toFixed(3));
 
 console.log(typeof age);
 
-
 //* Null Undefined NaN
 
-console.log(typeof null);//object
+console.log(typeof null); //object
 
-console.log(Boolean(null));//false
+console.log(Boolean(null)); //false
 
-console.log(null-5);//-5
+console.log(null - 5); //-5
 
-console.log(null==undefined);//true
-console.log(null===undefined);//false
+console.log(null == undefined); //true
+console.log(null === undefined); //false
 
-console.log(null===null);//true
+console.log(null === null); //true
 
-console.log(Number("asdfg"));//NaN
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(Number("asdfg")); //NaN
