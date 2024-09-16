@@ -35,4 +35,42 @@ const sayi1=+prompt("1.Sayıyı giriniz:");
 const islem=prompt(" Bir operator giriniz(+,-,*,/):");
 const sayi2=+prompt("2. sayıyı giriniz:");
 
+// let sonuc;
 
+// switch(islem){
+//     case"+":sonuc=sayi1+sayi2;break;
+//     case"-":sonuc=sayi1-sayi2;break;
+//     case"*":sonuc=sayi1*sayi2;break;
+//     case"/":sonuc=sayi1/sayi2;break;
+//     default:console.log("Lütfen bir islem operatörü giriniz");
+// }
+// console.log(sonuc);
+
+ switch(islem){
+
+    case "+": console.log(sayi1+sayi2); break;
+    case "-": console.log(sayi1-sayi2); break;
+    case "*": console.log(sayi1*sayi2); break;
+    case "/": console.log(sayi1/sayi2); break;
+    default: console.log("Gecerli bir operatör giriniz");
+ }
+
+
+
+let ay=7
+switch (ay){
+    case 12:case 1:case 2:
+        console.log("kis");
+        break;
+    case 3:case 4:case 5:
+        console.log("ilkbahar");
+        break;
+    case 6:case 7:case 8:
+        console.log("yaz");
+        break;
+    case 9:case 10:case 11:
+        console.log("sonbahar");
+        break;
+    default:
+        console.log("Gecersiz bir ay girdiniz");
+}
