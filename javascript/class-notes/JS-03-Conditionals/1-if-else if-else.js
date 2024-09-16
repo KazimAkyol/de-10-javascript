@@ -35,7 +35,7 @@ if (sicaklik > 50) {
 
 //! HESAP MAKINESI
 
-console.log("*******Hesao Makinesi*******");
+console.log("*******Hesap Makinesi*******");
 
 // 7 + 5= 12
 // 7 - 5= 2
@@ -64,4 +64,15 @@ else {
   console.log("Yanlis operatör girdiniz");
 }
 
-console.log("SONUC:", sonuc);
+// console.log("SONUC:", sonuc);
+
+// if (sonuc!=0){
+//     console.log("Tebrikler bir sonuc buldunuz", sonuc);
+// }
+
+// 1.Kisayol
+if (sonuc){
+    console.log("Tberikler bir sonuc buldunuz", sonuc);
+}
+
+//short circuit
