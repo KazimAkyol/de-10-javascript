@@ -55,20 +55,39 @@ console.log(result);
 
 //grade 50den büyükse gecti degilse kaldi
 
-let grade = 40
+let grade = 40;
 
-grade>50 ? console.log("Gectiniz") : console.log("Kaldiniz");
+grade > 50 ? console.log("Gectiniz") : console.log("Kaldiniz");
 
 //else icin bir degerimiz yoksa "" veya null verip kurturlabiliriz
-grade>50 ? console.log("Gectiniz"): null;
+grade > 50 ? console.log("Gectiniz") : null;
 
 //ÖRNEK SORULAR
 //1.Bir sayi 50 ile 100 arasinda mi? Evetse 50 ile 100 arasinda degilse, bu aralikta degil yazdiralim
 
-let num=55; //101 yailarak "Bu aralikta degil" seklinde de yazdirabiliriz
-(num>50 && num<100) ? console.log("50 ile 100 arasinda") : console.log("Bu aralikta degil");
+let num = 55; //101 yailarak "Bu aralikta degil" seklinde de yazdirabiliriz
+num > 50 && num < 100
+  ? console.log("50 ile 100 arasinda")
+  : console.log("Bu aralikta degil");
 
 //2.Bir sayi hem 3'e hem 5'w tam bölünüyor mu?
 
+//3.Bir araba modeli hem elektrikli hem de 2020’den sonra mı üretilmiş?
+let isElectric = true;
+let productionYear = 2022;
 
-//3.
+//4.Bir kişi yetişkin mi ve yaşlı mı (yaş 18'den büyük ve 65’ten büyük)?
+let age1 = 70;
+
+//5.Bir sayı hem negatif hem tek mi?
+let num1 = -3;
+
+// 6.Bir sayı hem 4’e hem 6’ya tam bölünebiliyor mu?
+
+// 7.Bir sayı 5’e bölünebiliyor mu ve 50’den büyük mü?
+
+// 8.İki sayı toplamı 100’den büyük ve farkları 20’den küçük mü?
+
+// 9.Bir sayı hem çift mi hem de 10’un katı mı?
+
+// 10.Bir sayı 1000’den büyük mü ve 5’e tam bölünebiliyor mu?
