@@ -31,9 +31,9 @@
 
 //**********hesap makinesi örnegi - switch-case********* */
 
-const sayi1=+prompt("1.Sayıyı giriniz:");
-const islem=prompt(" Bir operator giriniz(+,-,*,/):");
-const sayi2=+prompt("2. sayıyı giriniz:");
+// const sayi1=+prompt("1.Sayıyı giriniz:");
+// const islem=prompt(" Bir operator giriniz(+,-,*,/):");
+// const sayi2=+prompt("2. sayıyı giriniz:");
 
 // let sonuc;
 
@@ -46,31 +46,70 @@ const sayi2=+prompt("2. sayıyı giriniz:");
 // }
 // console.log(sonuc);
 
- switch(islem){
+//  switch(islem){
 
-    case "+": console.log(sayi1+sayi2); break;
-    case "-": console.log(sayi1-sayi2); break;
-    case "*": console.log(sayi1*sayi2); break;
-    case "/": console.log(sayi1/sayi2); break;
-    default: console.log("Gecerli bir operatör giriniz");
- }
+//     case "+": console.log(sayi1+sayi2); break;
+//     case "-": console.log(sayi1-sayi2); break;
+//     case "*": console.log(sayi1*sayi2); break;
+//     case "/": console.log(sayi1/sayi2); break;
+//     default: console.log("Gecerli bir operatör giriniz");
+//  }
 
+// let ay=7
+// switch (ay){
+//     case (ay===12 || ay===1 || ay===2):
+//         {console.log("kis");
+//         break;}
 
+//     case (ay===3 || ay===4 || ay===5):
+//         {console.log("ilkbahar");
+//         break;}
 
-let ay=7
-switch (ay){
-    case 12:case 1:case 2:
-        console.log("kis");
-        break;
-    case 3:case 4:case 5:
-        console.log("ilkbahar");
-        break;
-    case 6:case 7:case 8:
-        console.log("yaz");
-        break;
-    case 9:case 10:case 11:
-        console.log("sonbahar");
-        break;
-    default:
-        console.log("Gecersiz bir ay girdiniz");
+//     case (ay===6 || ay===7 || ay===8):
+//         {console.log("yaz");
+//         break;}
+
+//     case (ay===9 || ay===10 || ay===11):
+//         {console.log("sonbahar");
+//         break;}
+
+//     default:
+//         console.log("Gecersiz bir ay girdiniz");
+// }
+
+const day = new Date().getDay();
+console.log(day);
+
+switch (day) {
+  case 0:
+    console.log("Sunday");
+    break;
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Tuesday");
+    break;
+  case 3:
+    console.log("Wednesday");
+    break;
+  case 4:
+    console.log("Thursday");
+    break;
+  case 5:
+    console.log("Friday");
+    break;
+  case 6:
+    console.log("Saturday");
+    break;
 }
+
+//ÖRNEK SORULAR
+
+//1.Bir kullanici girisine göre selamlama yapma
+//tr:merhaba
+//en:hello
+//fr:bonjour
+
+//2.Bir ögrenci notuna göre harf notunu belirleme:
+//90 üzeri A
