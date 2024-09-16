@@ -71,4 +71,4 @@ let num=55; //101 yailarak "Bu aralikta degil" seklinde de yazdirabiliriz
 //2.Bir sayi hem 3'e hem 5'w tam bölünüyor mu?
 
 
-//
+//3.
