@@ -86,9 +86,9 @@ console.log("*******Hesap Makinesi*******");
 let yas = 17;
 let h = "saglikli";
 
-if ((yas>18) && (h == "saglikli")) {
+if (yas > 18 && h == "saglikli") {
   console.log("Askerlik yapabilir");
-}
-else{
-    console.log("Askerlik yapamaz");
+} 
+else {
+  console.log("Askerlik yapamaz");
 }
