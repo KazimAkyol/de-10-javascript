@@ -67,3 +67,8 @@ grade>50 ? console.log("Gectiniz"): null;
 
 let num=55; //101 yailarak "Bu aralikta degil" seklinde de yazdirabiliriz
 (num>50 && num<100) ? console.log("50 ile 100 arasinda") : console.log("Bu aralikta degil");
+
+//2.Bir sayi hem 3'e hem 5'w tam bölünüyor mu?
+
+
+//
