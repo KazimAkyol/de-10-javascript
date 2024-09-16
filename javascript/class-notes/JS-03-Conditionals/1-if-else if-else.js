@@ -42,27 +42,27 @@ console.log("*******Hesap Makinesi*******");
 // 7 * 5= 35
 // 7 / 5= 1
 
-const sayi1 = +prompt("1.Sayiyi giriniz:");
-const islem = prompt(" Bir operatör giriniz(+,-,*,/):");
-const sayi2 = +prompt("2.Sayiyi giriniz:");
+// const sayi1 = +prompt("1.Sayiyi giriniz:");
+// const islem = prompt(" Bir operatör giriniz(+,-,*,/):");
+// const sayi2 = +prompt("2.Sayiyi giriniz:");
 
-let sonuc;
+// let sonuc;
 
-if (islem == "+") {
-  sonuc = sayi1 + sayi2;
-} 
-else if (islem == "-") {
-  sonuc = sayi1 - sayi2;
-} 
-else if (islem == "*") {
-  sonuc = sayi1 * sayi2;
-} 
-else if (islem == "/") {
-  sonuc = sayi1 / sayi2;
-} 
-else {
-  console.log("Yanlis operatör girdiniz");
-}
+// if (islem == "+") {
+//   sonuc = sayi1 + sayi2;
+// }
+// else if (islem == "-") {
+//   sonuc = sayi1 - sayi2;
+// }
+// else if (islem == "*") {
+//   sonuc = sayi1 * sayi2;
+// }
+// else if (islem == "/") {
+//   sonuc = sayi1 / sayi2;
+// }
+// else {
+//   console.log("Yanlis operatör girdiniz");
+// }
 
 // console.log("SONUC:", sonuc);
 
@@ -71,8 +71,24 @@ else {
 // }
 
 // 1.Kisayol
-if (sonuc){
-    console.log("Tberikler bir sonuc buldunuz", sonuc);
-}
+//  if (sonuc){
+//     console.log("Tberikler bir sonuc buldunuz", sonuc);
+// }
 
 //short circuit
+
+// && and || or
+
+// && : hepsi dogru olmali, hepsi True sonuncuyu alir
+
+// sonuc && console.log("Bir sonuc buldunuz");
+
+let yas = 17;
+let h = "saglikli";
+
+if ((yas>18) && (h == "saglikli")) {
+  console.log("Askerlik yapabilir");
+}
+else{
+    console.log("Askerlik yapamaz");
+}
