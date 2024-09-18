@@ -70,7 +70,7 @@ num > 50 && num < 100
   ? console.log("50 ile 100 arasinda")
   : console.log("Bu aralikta degil");
 
-//2.Bir sayi hem 3'e hem 5'w tam bölünüyor mu?
+//2.Bir sayi hem 3'e hem 5'e tam bölünüyor mu?
 
 //3.Bir araba modeli hem elektrikli hem de 2020’den sonra mı üretilmiş?
 let isElectric = true;
