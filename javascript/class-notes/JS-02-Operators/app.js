@@ -60,7 +60,7 @@ console.log(sayi4 - sayi3); //!37
 // Math.trunc(); //* sayının tam kısmını alır.
 // Math.round(); //* en yakın tam sayıya yuvarlar.
 
-// Math.random(); //* 0 ve 1 arasında rasgele sayı üretir.
+// Math.random(); //* 0 ve 1 arasında rastgele sayı üretir.
 
 //toFixed(x) //*virgülden sonra x adet basamak bırak
 
