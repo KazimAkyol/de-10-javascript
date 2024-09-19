@@ -23,13 +23,32 @@ for (let sayac = 1; sayac <= 10; sayac++) {
     console.log("clarusway");
 }
 
+//-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
 let max = 5;
 let sum = 0;
 
-for (let counter = 0; counter <= max; counter++) {
+for (let counter = 1; counter <= max; counter++) {
     sum = sum + counter;
-    console.log(sum);
+    console.log("ne geliyor counter", counter);
+    console.log("ne geliyor sum", sum);
 }
 
 console.log(sum);
+
+//-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
+let sayi = 5;
+let faktoryel = 1;
+
+for (let i = 1; i <= sayi; i++) {
+    faktoryel = faktoryel * i;
+    console.log("icerde", faktoryel);
+    
+}
+
+console.log("disarda faktoryel", faktoryel);
+
+//-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
 
