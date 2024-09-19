@@ -51,4 +51,13 @@ console.log("disarda faktoryel", faktoryel);
 
 //-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
 
+for (let i = 0; i <= 5; i++) {
+    for (let j = 1; j <= 5; j++) {
+        console.log("*");
+         
+    }
+    console.log("\n");
+    //console.log(str);
+}
+
 
