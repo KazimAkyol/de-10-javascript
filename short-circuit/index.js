@@ -18,3 +18,7 @@ else{
 }
 
 console.log("0" && [] && "merhaba"/5 && 404);
+
+for (let sayac = 1; sayac <= 10; sayac++) {
+    console.log("clarusway");
+}
