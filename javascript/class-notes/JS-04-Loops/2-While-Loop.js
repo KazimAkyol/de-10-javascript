@@ -8,23 +8,64 @@
 
 // 1den 10 a kadar olan sayıları yazdıran program:
 
-let i = 1;
+//let i = 1;
 
-while (i <= 10) {
-  console.log(i);
-  i++;
-}
+//while (i <= 10) {
+//console.log(i);
+//i++;
+//}
 
 // Kullanicidan 100 ile 200 arasinda bir sayi girildigi muddetce sayi istemeyi devam ettiren bir program:
 
-let number = 100;
+//let number = 100;
 
-while (number >= 100 && number <= 200) {
-  number = +prompt("Bir sayi giriniz");
-}
+//while (number >= 100 && number <= 200) {
+//number = +prompt("Bir sayi giriniz");
+//}
 
 console.log("100 ile 200 arasinda bir deger girmediniz");
 
 //! Kullanicidan cevap alinip devam etme/etmeme durumlarinda kullanabiliyoruz
 
-let cevap = prompt;
+//let cevap = "evet";
+
+//while (cevap !== "hayir") {
+//console.log("Merhaba, Oyunu tamamladiniz");
+//cevap = prompt("Devam etmek istiyor musunuz (evet/hayir:");
+//}
+
+// ÖRNEK 4:
+
+// 1-ürün girisi
+// 2-ürün listele
+// 3-ürün sil
+// 4-cikis
+
+let check = true;
+
+while (check === true) {
+  console.log(`
+       Bir secenek giriniz:
+       1-ürün girisi
+       2-ürün listele
+       3-ürün sil
+       4-cikis`);
+  let tercih = Number(prompt("Tercihinizi Giriniz:"));
+
+  switch (tercih) {
+    case 1:
+      console.log("Ürün girisi yapildi");
+      break;
+    case 2:
+      console.log("Ürün listelendi");
+      break;
+    case 3:
+      console.log("Ürün silindi");
+      break;
+    case 4:
+      check = false;
+      break;
+    default:
+      console.log("Gecersiz bir deger girdiniz");
+  }
+}
