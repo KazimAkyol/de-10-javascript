@@ -10,8 +10,9 @@ let hak = 5;
 do {
   const sayi = Math.trunc(Math.random() * 50);
   console.log(sayi);
-
+  hak = 5;
   while (hak > 0) {
+    hak--;
     let tahmin = +prompt("Tahmininizi Giriniz:");
 
     if (tahmin === sayi) {
