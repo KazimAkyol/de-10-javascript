@@ -41,6 +41,8 @@ console.log("100 ile 200 arasinda bir deger girmediniz");
 // 3-ürün sil
 // 4-cikis
 
+//! Cok kullanilan bir yapi:
+
 let check = true;
 
 while (check === true) {
