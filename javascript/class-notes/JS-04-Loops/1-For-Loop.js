@@ -43,4 +43,19 @@ for (let i = 1; i <= 20; i++) {
   toplam = toplam + i;
 }
 
-console.log(toplam);                                 
+console.log(toplam);
+
+// 10 un faktöriyelini bulan program:
+
+let factoriel = 1;
+
+for (i=1; i<=10; i++) {
+    factoriel = factoriel * i;
+    console.log(factoriel);
+}
+console.log(factoriel);
+
+// 5! = 5*4*3*2*1 = 1*2*3*4*5
+
+
+
