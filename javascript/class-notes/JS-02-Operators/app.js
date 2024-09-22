@@ -229,12 +229,12 @@ console.log(Boolean(v5));
 
 let para = Number("1000") + Number("400");
 
-console.log(para);
+console.log(para);//1400
 
-console.log("1000" - "400");
-console.log("1000" * "400");
-console.log("1000" / "400");
-console.log("1000" + "400");
+console.log("1000" - "400");//600
+console.log("1000" * "400");//400000
+console.log("1000" / "400");//2.5
+console.log("1000" + "400");//1000400
 
 const s1 = 12;
 const s2 = "23";
@@ -244,8 +244,8 @@ console.log(s1 + Number(s2)); //35
 
 let ss1 = "123.456";
 
-console.log(parseInt(ss1)); //stringi tam sayiya cevirir
-console.log(parseFloat(ss1)); // stringi sayiya cevirir
+console.log(parseInt(ss1)); //stringi tam sayiya cevirir //123
+console.log(parseFloat(ss1)); // stringi sayiya cevirir //123.456
 
 let f = 123.678;
 
@@ -255,7 +255,7 @@ console.log(f.toString()); //number'i stringe cevirir
 
 let ee = "12";
 
-console.log(typeof +ee);
+console.log(typeof +ee);//12
 
 //* toFixed(x) metodu virgülden x basamak birakmamizi saglar ama sayiyi string'e cevirir
 
