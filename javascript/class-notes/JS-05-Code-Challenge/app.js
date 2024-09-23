@@ -176,17 +176,17 @@ console.log(0 || false || undefined); //undefined
 
 //! 7 - Sizden 1'den 100'e kadar sayilari console a yazdirmaniz istenmektedir ancak 3'ün katlarina gelince 'Fizz', 5'in katlarina gelince 'Buzz' yazacak. Hem 3'ün hem de 5'in katina geldiginde ise 'FizzBuzz' yazdirmaniz istenmektedir.
 
-for (let i = 1; i <= 100; i++) {
-  if (i % 3 === 0 && i % 5 === 0) {
-    console.log("FizzBuzz");
-  } else if (i % 3 === 0) {
-    console.log("Fizz");
-  } else if (i % 5 === 0) {
-    console.log("Buzz");
-  } else {
-    console.log(i);
-  }
-}
+// for (let i = 1; i <= 100; i++) {
+//   if (i % 3 === 0 && i % 5 === 0) {
+//     console.log("FizzBuzz");
+//   } else if (i % 3 === 0) {
+//     console.log("Fizz");
+//   } else if (i % 5 === 0) {
+//     console.log("Buzz");
+//   } else {
+//     console.log(i);
+//   }
+// }
 
 //! 8 - Bir sayinin(number) basamak sayisini yazdiran kodu yaziniz
 
@@ -202,4 +202,22 @@ for (let i = 1; i <= 100; i++) {
 
 //! 9 - Kullanicidan alinan n adet kadar olan Fibonacci dizisini aralarinda bosluk olan string sekilde console a yazdiriniz // 0 1 1 2 3 5 8 13
 
-let n = 
+// let a = 0;
+// let b = 1;
+// let strfibonacci = `0 1`;
+// let n = +prompt("kac tane fibonacci sayisi istersiniz");
+// for (let i = 2; i < n; i++) {
+//   c = a + b;
+//   strfibonacci += ` ${c}`;
+//   a = b;
+//   b = c;
+// }
+// console.log(strfibonacci);
+
+//! 10 - Asagidaki ciktiyi console a yazdiriniz
+
+//! 11 - Asagidaki ciktiyi console a yazdiriniz
+
+//! 12 - Girilen degerlerin ücgen olusturup olusturamayacagini bulan program:
+
+let a = +prompt("Birinci kenari giriniz")
