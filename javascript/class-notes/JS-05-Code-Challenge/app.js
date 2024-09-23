@@ -64,7 +64,44 @@ console.log(0 || false || undefined);//undefined
 
 //console.log(`${x}.yüzyil`);
 
+//! 2 - Bir dersten  alinan notun harfini asagidaki duruma göre console a yazdiriniz
 
+//?  Not:
+//?  90'dan büyükse AA.
+//? - 80'den büyük yada 90'a eşitse AB,
+//? - 70'den büyük yada 80'a eşitse BB,
+//? - 60'den büyük yada 70'a eşitse BC,
+//? - 50'den büyük yada 60'a eşitse CC,
+//? - 40'den büyük yada 50'a eşitse CD,
+//? - 30'den büyük yada 40'a eşitse DD,
+//? - 30'dan küçük yada eşitse FF,
+
+let x = +prompt("Lütfen notunuzu giriniz");
+
+if (x<0 || x>100) {
+    console.log("Lütfen 1-100 arasinda bir deger giriniz");
+}
+else if (x>90) {
+    console.log("AA");
+}
+else if (x>80) {
+    console.log("AB");
+}
+else if (x>70) {
+    console.log("BB");
+}
+else if (x>60) {
+    console.log("BC");
+}
+else if (x>50) {
+    console.log("CC");
+}
+else if (x>40) {
+    console.log("DD");
+}
+else {
+    console.log("FF");
+}
 
 
 
