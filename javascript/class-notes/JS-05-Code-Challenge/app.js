@@ -39,14 +39,32 @@ console.log(0 || false || undefined);//undefined
 
 //! 18 yasindan büyüklerin oy kullanabilecegini 18 yasindan kücüklerin oy kullanamayacagini ternary yapi ile konsola yazdiran kodu yaziniz. (ternary)
 
-let age = 27
+//let yas = +prompt("yasinizi giriniz");
 
-if(age > 18) {
-    console.log("Kisi oy kullanabilir");
-}
-else{
-    console.log("Kisi oy kullanamaz");
-}
+//if(yas < 18) {
+    //console.log("Yasiniz 18'den kücüktür.Oy kullanamazsiniz");
+//}
+//else{
+    //console.log("Yasiniz 18'den büyüktür.Oy kullanabilirsiniz");
+//}
+
+///let yas = +prompt("yasinizi giriniz");
+
+//yas < 18 ? console.log("Kisi oy kullanamaz") : console.log(Kisi oy kullanabilir);
+
+//!1/2 girilen yilin yüzyilini veren program 1788 > 18.yüzyil
+
+//1788/100
+//17,88
+//17+1
+
+//let yil = +prompt("Yil giriniz");
+
+//let x = Math.trunc(yil/100); + 1
+
+//console.log(`${x}.yüzyil`);
+
+
 
 
 
