@@ -122,8 +122,27 @@ console.log(0 || false || undefined); //undefined
 
 //! 4 - 1000 ile 2000 arasindaki 13'e bölümünden kalani 3 olan sayilari console a yazdiriniz
 
-for (let i = 1000; i < 2000; i++) {
-  if (i % 13 == 3) {
-    console.log(i);
-  }
-}
+// let sayac = 0;
+
+// for (let i = 1000; i < 2000; i++) {
+//   if (i % 13 == 3) {
+//     console.log(i);
+//     sayac++;
+//   }
+// }
+
+//console.log("kac tane", sayac);
+
+//! 5 - Kullanicidan alinan 5 adet sayinin ortalamasini console a yazdiriniz
+
+let sayac = 0
+ let toplam = 0;
+ for (let i = 1; i <= 5; i++) {
+   let sayi = +prompt("sayi giriniz");
+   sayac++
+   toplam += sayi;
+ }
+
+ console.log(toplam/sayac);
+
+
